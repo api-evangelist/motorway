@@ -1,9 +1,27 @@
 aid: motorway
 name: Motorway
-description: 'Motorway is a company surfaced as a portfolio company of iconiq-capital, index-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: marketplace. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Motorway is the UK''s fastest-growing used car marketplace, connecting private
+  sellers with a network of more than 8,000 verified car dealers through a daily online
+  auction. Founded in 2017 and headquartered in London and Brighton, the platform provides
+  instant AI-assisted vehicle valuations, a mobile app that builds a sale-ready car profile,
+  nationwide home collection, same-day payment (Motorway Pay), transport (Motorway Move),
+  and outstanding-finance handling. Over one million people have used Motorway to sell a
+  car. It is a consumer and dealer (B2C/B2B) marketplace rather than a public API provider:
+  no developer portal, OpenAPI, or public API surface is published as of this enrichment
+  pass. Backed by Index Ventures, ICONIQ Growth, BMW i Ventures and LocalGlobe.'
 url: https://raw.githubusercontent.com/api-evangelist/motorway/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.motorway.co.uk/static/assets_seller/og-website-image-5.e59fc584148069c303fb.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Marketplace
+- Automotive
+- Used Cars
+- Car Auction
+- Vehicle Valuation
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/motorway-domain-security.yml
 - type: Website
   url: https://motorway.co.uk/
+- type: LLMsTxt
+  url: llms/motorway-llms.txt
+- type: Blog
+  url: https://motorway.co.uk/blog
+- type: Support
+  url: https://help.motorway.co.uk/
+- type: TermsOfService
+  url: https://motorway.co.uk/terms
+- type: PrivacyPolicy
+  url: https://motorway.co.uk/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
