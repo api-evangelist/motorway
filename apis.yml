@@ -10,6 +10,17 @@ description: 'Motorway is the UK''s fastest-growing used car marketplace, connec
   no developer portal, OpenAPI, or public API surface is published as of this enrichment
   pass. Backed by Index Ventures, ICONIQ Growth, BMW i Ventures and LocalGlobe.'
 url: https://raw.githubusercontent.com/api-evangelist/motorway/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
